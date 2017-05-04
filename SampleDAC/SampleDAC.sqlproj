@@ -85,7 +85,6 @@
     <None Include=".build_scripts\build.ps1" />
     <None Include=".build_scripts\publish.ps1" />
     <None Include=".msbuild\DacVersionFromAssembly.targets" />
-    <None Include="SampleDAC.publish.xml" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="scripts\post_deploy.sql" />
