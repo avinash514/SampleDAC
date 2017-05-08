@@ -80,7 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="publish\SampleDAC.publish.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>DoNotCopy</CopyToOutputDirectory>
     </None>
     <None Include=".build_scripts\build.ps1" />
     <None Include=".build_scripts\publish.ps1" />
