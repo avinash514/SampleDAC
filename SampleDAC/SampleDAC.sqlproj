@@ -80,12 +80,12 @@
     <Compile Include="properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="publish\SampleDAC.publish.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include=".build_scripts\build.ps1" />
     <None Include=".build_scripts\publish.ps1" />
     <None Include=".msbuild\DacVersionFromAssembly.targets" />
+    <None Include="SampleDAC.publish.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="scripts\post_deploy.sql" />
