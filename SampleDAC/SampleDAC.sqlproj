@@ -83,7 +83,7 @@
     <None Include=".build_scripts\build.ps1" />
     <None Include=".build_scripts\publish.ps1" />
     <None Include=".msbuild\DacVersionFromAssembly.targets" />
-    <None Include="SampleDAC.publish.xml">
+    <None Include="publish\SampleDAC.publish.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
