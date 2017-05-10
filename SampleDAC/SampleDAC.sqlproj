@@ -41,6 +41,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <RunSqlCodeAnalysis>False</RunSqlCodeAnalysis>
+    <OutputPath>\bin\release\</OutputPath>
   </PropertyGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
@@ -80,7 +81,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="publish\SampleDAC.publish.xml">
-      <CopyToOutputDirectory>DoNotCopy</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include=".build_scripts\build.ps1" />
     <None Include=".build_scripts\publish.ps1" />
