@@ -7,11 +7,6 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SampleDAC", "SampleDAC\Samp
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "dac_package2", "dac_package2\dac_package2.sqlproj", "{B1EFD643-8F7F-474B-91ED-9451D8249B0B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "publish", "publish", "{0369A321-730C-40AC-B431-BAD37428AED3}"
-	ProjectSection(SolutionItems) = preProject
-		SampleDAC\SampleDAC.publish.xml = SampleDAC\SampleDAC.publish.xml
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		release|Any CPU = release|Any CPU
