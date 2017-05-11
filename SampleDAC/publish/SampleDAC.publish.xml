@@ -10,8 +10,9 @@
     <ProfileVersionNumber>1</ProfileVersionNumber>
     <ScriptDatabaseOptions>True</ScriptDatabaseOptions>
     <BlockOnPossibleDataLoss>True</BlockOnPossibleDataLoss>
-    <BackupDatabaseBeforeChanges>True</BackupDatabaseBeforeChanges>
+    <BackupDatabaseBeforeChanges>False</BackupDatabaseBeforeChanges>
     <NoAlterStatementsToChangeCLRTypes>True</NoAlterStatementsToChangeCLRTypes>
     <DropStatisticsNotInSource>False</DropStatisticsNotInSource>
+    <DeployDatabaseInSingleUserMode>True</DeployDatabaseInSingleUserMode>
   </PropertyGroup>
 </Project>
