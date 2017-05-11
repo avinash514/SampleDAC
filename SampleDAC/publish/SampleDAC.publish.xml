@@ -12,5 +12,6 @@
     <BlockOnPossibleDataLoss>True</BlockOnPossibleDataLoss>
     <BackupDatabaseBeforeChanges>True</BackupDatabaseBeforeChanges>
     <NoAlterStatementsToChangeCLRTypes>True</NoAlterStatementsToChangeCLRTypes>
+    <DropStatisticsNotInSource>False</DropStatisticsNotInSource>
   </PropertyGroup>
 </Project>
